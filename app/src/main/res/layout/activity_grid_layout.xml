@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:rowCount="6"
+    android:columnCount="4"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView android:text="0"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textSize="50sp"
+        android:layout_columnSpan="4"/>
+        <!--
+            注意这里的columnSpan是干什么的呢 就是将后面的空格合并在一起
+        -->
+    <Button android:text="清除"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_columnSpan="4"
+        />
+    <Button android:text="1" android:textSize="26sp"/>
+    <Button android:text="2" android:textSize="26sp"/>
+    <Button android:text="3" android:textSize="26sp"/>
+    <Button android:text="+" android:textSize="26sp"/>
+    <Button android:text="4" android:textSize="26sp"/>
+    <Button android:text="5" android:textSize="26sp"/>
+    <Button android:text="6" android:textSize="26sp"/>
+    <Button android:text="-" android:textSize="26sp"/>
+    <Button android:text="7" android:textSize="26sp"/>
+    <Button android:text="8" android:textSize="26sp"/>
+    <Button android:text="9" android:textSize="26sp"/>
+    <Button android:text="*" android:textSize="26sp"/>
+    <Button android:text="." android:textSize="26sp"/>
+    <Button android:text="0" android:textSize="26sp"/>
+    <Button android:text="=" android:textSize="26sp"/>
+    <Button android:text="/" android:textSize="26sp"/>
+</GridLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/lable1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="相对布局"/>
+    <EditText
+        android:id="@+id/Etext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lable1"
+        />
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Etext"
+        android:background="@color/teal_200"
+        android:text="OK"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="50dp"
+        android:onClick="ToClose"
+        />
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Etext"
+        android:layout_toLeftOf="@id/ok"
+        android:text="Cancle"
+        android:onClick="Cancle"
+        />
+</RelativeLayout>

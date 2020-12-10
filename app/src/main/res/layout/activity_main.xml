@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="300dp"
+    android:layout_height="300dp"
+    android:layout_gravity="center"
+    android:gravity="center|top"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_name1"
+        android:layout_weight="1"
+        android:onClick="ToImagine"
+        />
+    <!--
+    xml中的注释是这样子写的哦
+    layout_gravity整个界面在手机屏幕上的位置
+    gravity 将是layout中的元素在整个界面的位置
+    android:gravity="center|top" 在自己layout中的中上
+    -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_name3"
+            android:layout_weight="1"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_name3"
+            />
+    </LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_name2"
+        android:layout_weight="1"
+        android:onClick="ToImagine1"
+        />
+    </LinearLayout>
+
+
+
+
+
